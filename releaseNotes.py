@@ -8,6 +8,12 @@ from docx import Document
 from io import BytesIO
 import html
 
+st.set_page_config(
+    page_title="Release Notes",
+    page_icon="📝",
+    layout="wide"
+)
+
 # Load environment variables
 load_dotenv()
 
