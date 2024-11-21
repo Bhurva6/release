@@ -235,7 +235,7 @@ st.markdown("""
 
 # In the Streamlit markdown section, modify to include copy button
 # Streamlit UI
-st.title("Release Notes")
+st.title("Release Notes 📝")
 
 branch_name = st.text_input("Enter the branch name", value="")
 
